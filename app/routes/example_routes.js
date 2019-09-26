@@ -32,7 +32,7 @@ module.exports = (keystone) => {
   // GET /examples
   router.get('/examples', keystone.middleware.cors, requireToken, (req, res) => {
     Example.model.find({})
-    .populate('owner')
+      .populate('owner')
       .then(examples => {
         // `examples` will be an array of Mongoose documents
         // we want to convert each one to a POJO, so we use `.map` to
@@ -118,7 +118,7 @@ module.exports = (keystone) => {
       .then(handle404)
       .then(example => {
         // throw an error if current user doesn't own `example`
-        // requireOwnership(req, example)
+        requireOwnership(req, example)
         // delete the example ONLY IF the above didn't throw
         example.remove()
       })
