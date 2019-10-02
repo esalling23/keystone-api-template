@@ -12,10 +12,14 @@ authentication and common middlewares.
 1.  Rename the directory from express-api-template -> your-app-name.
 1.  Empty [`README.md`](README.md) and fill with your own content.
 1.  Move into the new project and `git init`.
-1.  Replace all instances of `'express-api-template'` with your app name.
+1.  Replace all instances of `'keystone-api-template'` with your app name.
 1.  Install dependencies with `npm install`.
 1.  Ensure that you have `nodemon` installed by running `npm install -g nodemon`.
 1.  Ensure the API is functioning properly by running `npm run server`.
+1.  Visit `http://localhost:3000/keystone` and login with the credentials
+defined in [`updates/0.0.1-init.js`](updates/0.0.1-init.js).
+1.  From there, you will have access to manage all database documents for `examples`
+and `users`.
 1.  Once everything is working, make an initial commit.
 1.  Follow the steps in [express-api-deployment-guide](https://git.generalassemb.ly/ga-wdi-boston/express-api-deployment-guide)
 

@@ -1,7 +1,7 @@
 'use strict'
 
 // creating a base name for the mongodb
-const mongooseBaseName = 'keystone-template'
+const mongooseBaseName = 'keystone-api-template'
 
 // create the mongodb uri for development and test
 const database = {
