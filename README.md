@@ -1,9 +1,9 @@
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
-# express-api-template
+# keystone-api-template
 
-A template for starting projects with `express` as an API. Includes
-authentication and common middlewares.
+A template for starting projects with `express` as an API and `keystone` as a
+content management system. Includes authentication and common middlewares.
 
 ## Installation
 
@@ -17,9 +17,7 @@ authentication and common middlewares.
 1.  Ensure that you have `nodemon` installed by running `npm install -g nodemon`.
 1.  Ensure the API is functioning properly by running `npm run server`.
 1.  Visit `http://localhost:3000/keystone` and login with the credentials
-defined in [`updates/0.0.1-init.js`](updates/0.0.1-init.js).
-1.  From there, you will have access to manage all database documents for `examples`
-and `users`.
+defined in [`updates/0.0.1-init.js`](updates/0.0.1-init.js). From there, you will have access to manage all database documents for `examples` and `users`.
 1.  Once everything is working, make an initial commit.
 1.  Follow the steps in [express-api-deployment-guide](https://git.generalassemb.ly/ga-wdi-boston/express-api-deployment-guide)
 
